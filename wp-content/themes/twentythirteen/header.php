@@ -51,7 +51,13 @@
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php //wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
 					
-					<?php dynamic_sidebar('sidebar-logo'); ?>
+					<div class="social-medias">
+                        <a href="https://www.youtube.com/channel/UCyo7jPHRAdVqeNqGWQ4F3SA"><img src="<?php bloginfo('template_directory'); ?>/images/youtube.png" width="30" height="30" /></a>
+                        <a href="https://www.facebook.com/culturadoamazonas"><img src="<?php bloginfo('template_directory'); ?>/images/facebook.png" width="30" height="30" /></a>
+                        <a href="https://twitter.com/SEC_Amazonas"><img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" width="30" height="30" /></a>
+                        <a href="https://www.instagram.com/secretariadeculturadoamazonas/"><img src="<?php bloginfo('template_directory'); ?>/images/instagram.png" width="30" height="30" /></a>
+                    </div>
+                    <?php dynamic_sidebar('sidebar-logo'); ?>
 					
 					<?php get_search_form(); ?>
 				</nav>

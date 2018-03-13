@@ -4258,7 +4258,7 @@ footer.entry-meta {
 #titulo-agenda{
 	position: absolute;
     left: 16%;
-    top: 44%;
+    top: 50%;
     max-width: 100%;
     font-family: Raleway;
     font-weight: bold;
@@ -4287,7 +4287,7 @@ footer.entry-meta {
 #titulo-videos{
 	position: absolute;
     left: 16%;
-    top: 66%;
+    top: 70%;
     font-family: Raleway;
     font-weight: bold;
     color: #028238;
@@ -4320,6 +4320,12 @@ footer.entry-meta {
 	position: absolute;
     top: 20%;
     left: 42%;
+}
+
+.social-medias{
+/*    border: 1px solid #000;*/
+    width: 16%;
+    margin: 7px;
 }
 
 /* 
@@ -4685,7 +4691,7 @@ a {
   height: auto;
 }
 
-.overlay {
+.overlay-quadro {
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -4698,7 +4704,7 @@ a {
   opacity: 0.7;
 }
 
-.container-quadro:hover .overlay {
+.container-quadro:hover .overlay-quadro {
   bottom: 10px;
   height: 95%;
 }
